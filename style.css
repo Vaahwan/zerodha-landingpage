@@ -1,0 +1,72 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 20px;
+    border-bottom:2px solid rgb(243, 237, 237) ;
+}
+
+
+.btns{
+    padding-right: 25px;
+    color: gray;
+    font-size: 16px;
+}
+
+.btns:hover{
+    cursor: pointer;
+    color:blue
+}
+
+#hamburger > img{
+    width: 18px;
+    /* margin-top: 12px; */
+}
+
+.landimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.landimg > img{
+    width: 900px;
+}
+
+.bodytext{
+    text-align: center;
+}
+
+.bodytext > h1{
+    font-size: 48px;
+    color: rgb(52, 50, 50);
+    font-weight: 500;
+}
+
+.bodytext > p{
+    font-size: 20px;
+    color: rgb(49, 47, 47);
+    margin-bottom: 40px;
+}
+
+.submitbtn{
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 08px;
+    background-color: rgb(0, 102, 255);
+}
+
+.submitbtn:hover{
+    cursor: pointer;
+    background-color: black;
+}
